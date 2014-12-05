@@ -29,6 +29,8 @@ def heap(num, i, c, found):
             print(new,"\t",c)
     return c, found
 
+#putting all the for loops together causes a system error
+#This causes a slight stutter
 def cont(num, count, found):
     for a in range(10):
         for b in range(9):
